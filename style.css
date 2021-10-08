@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e5e5e5;
+}
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+/* === SIDEBAR === */
+.sidebar {
+    background-color: #1e2939;
+    color: #fff;
+    width: 370px;
+    padding: 50px 0;
+}
+.my-photo {
+    width: 370px;
+}
+.sidebar-mr-block {
+    margin: 50px 0 0 50px;
+}
+.sidebar-header {
+    font-weight: 700;
+    font-size: 22;
+    margin-bottom: 10px;
+}
+.sidebar-letter {
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 8px;
+}
+.sidebar-link {
+    color: #8e949c;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sidebar-list {
+    padding: 0 0 0 17px;
+}
+.sidebar-list li {
+    color: #fb6d3a;
+    line-height: 24px;
+}
+.sidebar-list span {
+    color: #fff;
+    font-style: 14px;
+    font-weight: 400;
+}
+
+/* === MAIN CONTENT === */
+.main-content {
+    padding: 50px 90px;
+}
+.main-content_title {
+    color: #000;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.about-me {
+    margin-bottom: 40px;
+}
+.about-me_profession {
+    font-size: 14;
+    font-weight: 700;
+    color: #000;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+.about-me_name-surname {
+    font-size: 45;
+    font-weight: 700;
+    color: #000;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+.about-me_description {
+    width: 400px;
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+}
+.projects {
+    margin-bottom: 50px;
+}
+.project-list {
+    padding: 0 0 0 18px;
+}
+.project-list li {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+.project-list span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.projects-link {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+}
+.work-experience {
+    margin-bottom: 50px;
+}
+.h3-position {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.h3-compani-name {
+    color: #fb6d3a;
+    font-size: 16px;
+    line-height: 20px;
+}
+.work-time {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+.work-time span {
+    color: #000;
+}
+.work-duties {
+    padding: 0 0 0 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.work-experience_company {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 564px) { 
+       .main-container {
+        flex-direction: column;
+        
+    }
+    .main-content {
+        margin: 20px auto; 
+        padding: 10px 30px 20px 30px;
+        text-align: center;
+    }
+    .sidebar {
+        margin: 20px auto;
+    }
+    .about-me_description {
+        width: 300px;
+        margin: 0 auto;
+    }
+   }
